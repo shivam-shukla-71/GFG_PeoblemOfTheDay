@@ -1,3 +1,8 @@
+#You are given an integer n, denoting the number of people who needs to be seated, 
+#and a list of m integers seats, where 0 represents a vacant seat and 1 represents an already occupied seat.
+
+Find whether all n people can find a seat, provided that no two people can sit next to each other
+#
 def is_possible_to_get_seats( n : int, m : int, seats : int) -> bool:
         # code here
         if(n==0):return True
